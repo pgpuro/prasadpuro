@@ -1,0 +1,131 @@
+site_name: Prasad Puro
+
+site_author: Prasad Puro
+site_description: >-
+  DESCRIPTION
+
+theme:
+  name: material
+  # custom_dir: overrides
+  # icon:
+  #   logo: fontawesome/solid/laptop-code
+  favicon: ./favicon.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to Light Mode
+    # # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
+
+    # # Palette toggle for light mode
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   primary: blue grey
+    #   accent: teal
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+
+    # # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   primary: blue grey
+    #   accent: teal
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to system preference
+  features:
+    # - navigation.sections
+    - content.code.copy
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.expand
+    - navigation.tabs
+    - navigation.top
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.mark
+
+
+plugins:
+  - search
+  - pdf-export:
+      combined: true
+      verbose: true
+      media_type: print
+      path: pdf/site.pdf
+
+nav:
+  - Home: 'index.md'
+  # - Network Automation:
+  #   - Intro: network-automation/index.md
+  #   - NetDevOps: network-automation/01-netdevops/index.md
+  #   - Data Models and Encodings: network-automation/02-data-models-encodings/index.md
+  #   - Python:
+  #     - network-automation/03-python/index.md
+  #     - Virtual Environment: network-automation/03-python/01-virtual-environmet.md
+  #     - Paramiko: network-automation/03-python/02-paramiko.md
+  #     - Netmiko: network-automation/03-python/03-netmiko.md
+  #     - Nornir: network-automation/03-python/04-nornir.md
+  #   - Data Models and Encodings: network-automation/04-data-models-encodings/index.md
+  #   - Technologies:
+  #     - network-automation/05-technologies/index.md
+  #     - network-automation/05-technologies/01-python.md
+  #     - network-automation/05-technologies/02-interacting.md
+  #     - network-automation/05-technologies/03-git.md
+  #     - network-automation/05-technologies/04-docker.md
+  #   - Automation Tools:
+  #     - network-automation/06-automation-tools/index.md
+  #     - network-automation/06-automation-tools/01-connection.md
+  #     - network-automation/06-automation-tools/02-parsing.md
+  #     - network-automation/06-automation-tools/03-configuring.md
+  #     - network-automation/06-automation-tools/04-summary.md
+  #   - Text Editors: network-automation/07-text-editors/index.md
+
+  # - Finance:
+  #   - Intro: Finance/index.md
+  #   - DCA: Finance/DCA/index.md
+  # - About: 'about.md'
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/ganeshvenepally
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ganeshvenepally/ganeshvenepally
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ganesh-venepally/
+
+
+copyright: |
+  &copy; 2024 <a>Prasad Puro</a> 
