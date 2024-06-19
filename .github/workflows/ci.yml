@@ -2,7 +2,6 @@ name: ci
 on:
   push:
     branches:
-      # - master 
       - main
 permissions:
   contents: write
@@ -20,6 +19,7 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material mkdocs-pdf-export-plugin
       - run: mkdocs build
+      - run: echo 'www.prasad-puro.com' > ./site/CNAME # Add your custom domain to the CNAME file in the build directory
       - run: mkdocs gh-deploy --force
       - uses: actions/upload-artifact@v3
         with:
