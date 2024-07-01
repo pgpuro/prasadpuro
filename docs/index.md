@@ -1,8 +1,8 @@
 
 ![Prasad Puro](profile_pic.jpg){ width="350" align=left }
 
-My name is Prasad Puro. I'm a Network Engineer with 15+ years of experience. Most part of my career I worked for major financial banks building and supporting thier complex networks. My technical background includes network design,implementations and operations.
+My name is Prasad Puro, and I am an Information Technology professional with over 22 years of experience. Throughout my career, I have worked extensively for major financial banks, focusing on building and supporting their complex networks. My technical expertise includes network design, implementation, and operations.
 
-Here I try to write about interesting technical challenges I face in my daily work and I hope you'll find something helpful to take away.
+In this space, I share interesting technical challenges I encounter in my daily work, hoping you will find something useful.
 
-If you want to get in touch you can PM me on twitter.
+Feel free to reach out to me via a private message on prasad.puro@gmail.com.
